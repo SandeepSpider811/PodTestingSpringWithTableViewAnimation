@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="keb-IQ-5Uc"/>
+                        <viewControllerLayoutGuide type="bottom" id="JTf-VN-r38"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aJw-Su-LM9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="FCX-Di-a3L">
+                                <rect key="frame" x="36" y="238" width="303" height="128"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.50196081400000003" green="0.0" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="JTf-VN-r38" firstAttribute="top" secondItem="FCX-Di-a3L" secondAttribute="bottom" constant="301" id="37l-zW-ojq"/>
+                            <constraint firstItem="FCX-Di-a3L" firstAttribute="leading" secondItem="aJw-Su-LM9" secondAttribute="leadingMargin" constant="20" id="U3E-Vk-J3X"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="FCX-Di-a3L" secondAttribute="trailing" constant="20" id="XPo-7Z-Yo8"/>
+                            <constraint firstItem="FCX-Di-a3L" firstAttribute="top" secondItem="keb-IQ-5Uc" secondAttribute="bottom" constant="218" id="pJE-OE-huU"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo" width="985" height="1024"/>
+    </resources>
+</document>
